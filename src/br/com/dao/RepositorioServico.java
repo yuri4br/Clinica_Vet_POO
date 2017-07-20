@@ -73,7 +73,7 @@ public class RepositorioServico implements IRepositorioServico {
 						
 				lista.add(s);
 			}
-			System.out.println("consulta completada com sucesso...");
+			System.out.println("Consulta concluída.");
 		}else{
 			
 		}

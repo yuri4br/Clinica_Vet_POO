@@ -53,6 +53,7 @@ public class RepositorioAnimal implements IRepositorioAnimal {
 
 		ps.execute();
 		ps.close();
+
 	}
 
 	@Override
@@ -76,7 +77,7 @@ public class RepositorioAnimal implements IRepositorioAnimal {
 
 				lista.add(a);
 			}
-			System.out.println("consulta completada com sucesso...");
+			System.out.println("Consulta concluída.");
 		} else {
 
 		}

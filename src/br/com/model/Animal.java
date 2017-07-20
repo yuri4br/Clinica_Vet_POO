@@ -1,6 +1,5 @@
 package br.com.model;
 
-
 public class Animal {
 
 	private int id;

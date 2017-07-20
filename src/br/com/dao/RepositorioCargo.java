@@ -82,7 +82,7 @@ public class RepositorioCargo implements IRepositorioCargo {
 		sql = "UPDATE " + NOME_TABELA + " SET cargo=? WHERE id=?;";
 		ps = (PreparedStatement) this.connection.prepareStatement(sql);
 		ps.setString(1, c.getNome());
-		ps.setInt(2, c.getId());
+		ps.setInt(4, c.getId());
 		ps.executeUpdate();
 		ps.close();
 		}else{
